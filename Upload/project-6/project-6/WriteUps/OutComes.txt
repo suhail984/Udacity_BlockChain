@@ -1,0 +1,35 @@
+\Udacity_Blockchain\3.submition\nd1309-Project-6b-Example-Template\project-6> truffle test
+Using network 'development'.
+
+Compiling .\contracts\coffeebase\SupplyChain.sol...
+ganache-cli accounts used here...
+Contract Owner: accounts[0]  0x503085ed923fc4d1e403f847f53b3dc82509f294
+Farmer: accounts[1]  0xa9e57cdbb174d8d493d3f87de83c75663d04f0d3
+Distributor: accounts[2]  0x22bb300d7cc3a232120497b230efc3dedd79176d
+Retailer: accounts[3]  0xe22117ab27430af3ba1ff97956594f6c20100665
+Consumer: accounts[4]  0x1438fa024e96a7a90d1fdc70d5d4fea5fcd20085
+
+
+  Contract: SupplyChain
+event 66 true number 0 itemState 0
+    √ Testing smart contract function harvestItem() that allows a farmer to harvest coffee (90ms)
+event 103 true number 1 itemState 1
+    √ Testing smart contract function processItem() that allows a farmer to process coffee (39ms)
+event 128 true number 2 itemState 2
+    √ Testing smart contract function packItem() that allows a farmer to pack coffee
+event 157 true number 3 itemState 3
+    √ Testing smart contract function sellItem() that allows a farmer to sell coffee (39ms)
+event 184 true number 4 itemState 4
+    √ Testing smart contract function buyItem() that allows a distributor to buy coffee (51ms)
+event 209 true number 5 itemState 5
+    √ Testing smart contract function shipItem() that allows a distributor to ship coffee (38ms)
+event 235 true number 6 itemState 6
+    √ Testing smart contract function receiveItem() that allows a retailer to mark coffee received
+event 260 true number 7 itemState 7
+    √ Testing smart contract function purchaseItem() that allows a consumer to purchase coffee
+    √ Testing smart contract function fetchItemBufferOne() that allows anyone to fetch item details from blockchain
+293 number 7 itemState 7
+    √ Testing smart contract function fetchItemBufferTwo() that allows anyone to fetch item details from blockchain
+
+
+  10 passing (478ms)

@@ -1,0 +1,14 @@
+npm install -g truffle@4.1.14
+npm install --save @truffle/hdwallet-provider 
+
+npm install
+
+ # Start ganache on port 8545
+ganache
+  
+  # Start the local blockchain (ganache) and deploy the contracts to it
+truffle test 
+truffle test --network sepolia
+
+
+ 

@@ -1,0 +1,7 @@
+@truffle/hdwallet-provider - This library is used to provide connection between test network and smart contract.
+
+ethjs-abi -The ethjs-abi package provides an easy way to work with the Ethereum ABI (Application Binary Interface) using the ethjs-abi library. The ABI is a standardized way of encoding the name, arguments, and return type of functions in smart contracts.
+
+truffle - Truffle is used in this project as it provides an integrated environment for developing smart contracts and interacting with them. Truffle includes features like the Ganache blockchain simulator, the Truffle suite of development tools, and MetaMask integration for easy testing and deployment.
+
+web3 - Web3 - It's a JavaScript library that allows us to interact with the Ethereum blockchain and our deployed contract.
